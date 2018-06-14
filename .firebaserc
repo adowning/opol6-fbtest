@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "development": "opol6-dev",
+    "production": "opol6-prod"
+  }
+}

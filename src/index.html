@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opol6-fstest</title>
+    <meta name="description" content="A Vue fullstack project">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+
+    <!-- Share link -->
+    <meta property="og:title" content="opol6-fstest">
+    <meta property="og:description" content="A Vue fullstack project">
+    <meta property="og:image" content="/assets/images/icon-256x256.png">
+
+    <!-- Web app manifest -->
+    <link rel="manifest" href="/assets/datas/manifest.json">
+
+    <!-- Add to homescreen for Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="opol6-fstest">
+    <link rel="icon" sizes="192x192" href="/assets/images/icon-192x192.png">
+
+    <!-- Add to homescreen for iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="opol6-fstest">
+    <link rel="apple-touch-icon" href="/assets/images/icon-152x152.png">
+
+    <!-- Add to home screen for Windows -->
+    <meta name="msapplication-TileImage" content="/assets/images/icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#1E88E5">
+  <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script> 
+  <!--  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>-->
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' /> 
+    <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+  </head>
+  <body>
+    <noscript>This is your fallback content in case JavaScript fails to load.</noscript>
+    <div id="app"></div>
+    <%= htmlWebpackPlugin.options.serviceWorkerLoader %>
+  </body>
+</html>
